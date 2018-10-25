@@ -40,6 +40,12 @@ body {
     clear: both;
 }
 
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
 div.surprise {
   background-image: url('images/meme.png');
   background-position: bottom right;
